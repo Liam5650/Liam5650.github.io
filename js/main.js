@@ -98,11 +98,12 @@
 
 $(document).ready(function() {
 
-	var perfEntries = performance.getEntriesByType("navigation");
-
-	if (perfEntries[0].type === "back_forward") {
-		location.reload();
-	}
+	window.addEventListener( "pageshow", function ( event ) {
+		var perfEntries = performance.getEntriesByType("navigation");
+		if (perfEntries[0].type === "back_forward") {
+		  location.reload();
+		}
+	   });
 	
 	$("body").css("display", "none");
     $("body").fadeIn(2000);
