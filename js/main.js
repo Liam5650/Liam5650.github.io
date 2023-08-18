@@ -83,6 +83,7 @@
 
 	// Document on load.
 	$(function(){
+		
 		loaderPage();
 		magnifPopup();
 		
@@ -98,12 +99,6 @@
 
 $(document).ready(function() {
 
-	window.addEventListener( "pageshow", function ( event ) {
-		var perfEntries = performance.getEntriesByType("navigation");
-		if (perfEntries[0].type === "back_forward") {
-		  location.reload();
-		}
-	   });
 	
 	$("body").css("display", "none");
     $("body").fadeIn(2000);
@@ -117,7 +112,8 @@ $(document).ready(function() {
 
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(100, redirectPage);		
+		redirectPage();
+		//$("body").fadeOut(100, redirectPage);		
 
 	});
 
