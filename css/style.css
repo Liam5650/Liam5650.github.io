@@ -6,7 +6,7 @@
   font-style: normal;
 }
 html, body {
-  background: #fff;
+  background: #2F272D;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
-  color: #676767;
+  color: #ffffff;
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -23,10 +23,11 @@ body.fh5co-overflow {
 body:before, body:after {
   content: "";
   position: fixed;
-  background: #fef7ec;
+  /*background: #202948;*/
+  background: #2B2429;
   left: 0;
   right: 0;
-  height: 20px;
+  height: 28px;
   z-index: 1002;
 }
 @media screen and (max-width: 768px) {
@@ -44,8 +45,8 @@ body:after {
 }
 
 body {
-  border-left: 20px solid #fef7ec;
-  border-right: 20px solid #fef7ec;
+  border-left: 28px solid #2B2429;
+  border-right: 28px solid #2B2429;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -84,7 +85,7 @@ a:hover, a:focus, a:active {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", times, serif;
-  color: #000;
+  color: #efefef;
   margin-bottom: 1.5em;
   clear: both;
 }
@@ -308,10 +309,10 @@ p {
 }
 
 .fh5co-intro {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .fh5co-intro.padding-right {
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 @media screen and (max-width: 768px) {
   .fh5co-intro.padding-right {
@@ -364,7 +365,7 @@ p {
   float: left;
   width: 100%;
   position: relative;
-  background: #f2f2f2;
+  background: #2B2429;
 }
 .fh5co-grid .fh5co-col-1 .fh5co-item a,
 .fh5co-grid .fh5co-col-2 .fh5co-item a {
@@ -500,7 +501,7 @@ p {
 
 .fh5co-social {
   padding: 0;
-  margin: 30px 0 0 0;
+  margin: -10px 0 0 0;
   position: relative;
 }
 .fh5co-social li {
@@ -510,9 +511,9 @@ p {
   display: inline;
 }
 .fh5co-social li a {
-  font-size: 40px;
-  padding: 4px;
-  color: #000;
+  font-size: 35px;
+  padding: 8px;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -581,7 +582,7 @@ figure figcaption {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #ffffff;
+  background: url(../images/hourglass.svg) center no-repeat #2F272D;
 }
 
 /*# sourceMappingURL=style.css.map */

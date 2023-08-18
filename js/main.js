@@ -75,7 +75,7 @@
 				
 			}
 
-		} , { offset: '50%' } );
+		} , { offset: '100%' } ); // This affects the distance the boxes fade in from
 
 
 	};
