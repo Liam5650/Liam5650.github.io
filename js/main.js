@@ -98,24 +98,31 @@
 
 $(document).ready(function() {
 
-	$("body").css("display", "none");
+	var perfEntries = performance.getEntriesByType("navigation");
 
+	if (perfEntries[0].type === "back_forward") {
+		location.reload();
+	}
+	
+	$("body").css("display", "none");
     $("body").fadeIn(2000);
     $("body").stop().animate({
     	opacity: 1
     });
 
 
+
 	$("a.transition").click(function(event){
 
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(1000, redirectPage);		
+		$("body").fadeOut(100, redirectPage);		
 
 	});
+
 		
 	function redirectPage() {
 		window.location = linkLocation;
 	}
-	
+
 });

@@ -1379,14 +1379,14 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/*
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+*/
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: transparent;
@@ -5955,6 +5955,7 @@ button.list-group-item-danger.active:focus {
 .panel-body {
   padding: 15px;
 }
+/*
 .panel-body:before, .panel-body:after {
   content: " ";
   display: table;
@@ -5962,6 +5963,7 @@ button.list-group-item-danger.active:focus {
 .panel-body:after {
   clear: both;
 }
+*/
 
 .panel-heading {
   padding: 10px 15px;

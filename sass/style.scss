@@ -112,6 +112,7 @@ body {
 }
 
 // border
+/*
 body:before, body:after {
     content: "";
     position: fixed;
@@ -130,6 +131,7 @@ body:before {
 body:after {
     bottom: 0;
 }
+*/
 body {
     border-left: 20px solid lighten($brand-primary, 25%);
     border-right: 20px solid lighten($brand-primary, 25%);  
