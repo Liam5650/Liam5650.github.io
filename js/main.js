@@ -112,8 +112,9 @@ $(document).ready(function() {
 
 		event.preventDefault();
 		linkLocation = this.href;
-		redirectPage();
-		//$("body").fadeOut(100, redirectPage);		
+		//redirectPage();
+		$("body").fadeOut(150, redirectPage);	
+		$("body").fadeIn(1000);	
 
 	});
 
