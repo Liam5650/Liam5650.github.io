@@ -90,6 +90,10 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+.fh5co-social li a:hover {
+  color: #f3ac2b;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", arial, serif;
   color: #efefef;
@@ -530,9 +534,7 @@ p {
     font-size: 26px;
   }
 }
-.fh5co-social li a:hover {
-  color: #f3ac2b;
-}
+
 
 figure {
   margin-bottom: 1.5em;
